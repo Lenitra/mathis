@@ -1,0 +1,33 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+main {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+ main img {
+    width: 80vw;
+    height: auto;
+ }
+
+ header {
+    height: 13vh;
+ }
+
+ h1 {
+     font-family: Titres;
+ }
+
+ h3, p {
+    font-family: Textes;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ span {
+    background-color: #bebebe;
+    border-radius: 25%;
+    padding: 3px;
+ }
