@@ -1,0 +1,91 @@
+<!-- Site créé par Thomas Lemartinel et Erwann Coden -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Mathis Enguehard</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="imgs/logo.png"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/index/index.css"/>
+    <link rel="stylesheet" href="css/index/indextel.css"/>
+    <link rel="stylesheet" href="css/index/indexpc.css"/>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="logo" class="logo"/></a>
+        </div>
+
+        <img src="imgs/icons/menu.png" alt="" id="navigationbutton">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Dessins</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul id="resaux">
+                <li id="insta"><a href="https://instagram.com/mathis_enguehard_design"><img src="imgs/icons/insta.png" alt=""></a></li>
+            </ul>
+        </nav>
+
+        <div class="title"> 
+            <!-- <h3></h3> -->
+            <h1>Mathis Enguehard</h1>
+            <h3>Ne les laissez jamais vous appeler créatifs. Vous êtes des concepteurs, ce n’est pas de la magie, c’est un métier</h3>
+        </div>
+
+        <img src="imgs/icons/scroll.gif" alt="" id="scroll">
+
+    </header>
+
+    <main>
+        <div class="container1">
+            <figure class="one">  <img src="imgs/sceneauechelles.jpg" alt=""><figcaption class="title">SCEN'EAU ECHELLES</figcaption>            </figure>
+            <figure class="two">  <img src="imgs/gillot.jpg" alt="">         <figcaption class="title">GILLOT</figcaption>                       </figure>
+            <figure class="three"><img src="imgs/melting.jpg" alt="">        <figcaption class="title">THE DISPERTION OF MELTING ICE</figcaption></figure>
+            <figure class="four"> <img src="imgs/archipel.jpg" alt="">       <figcaption class="title">L'ARCHIPEL</figcaption>                   </figure>
+            <figure class="five"> <img src="imgs/maison.jpg" alt="">         <figcaption class="title">DIA'PHANE</figcaption>                    </figure>
+        </div>
+        <div class="container2">
+            <figure class="one"> <a href="sceneauechelles.html"><img src="imgs/sceneauechelles.jpg" alt=""><figcaption class="title">SCEN'EAU ECHELLES</figcaption></a></figure>
+            <figure class="two">  <img src="imgs/gillot.jpg" alt="">         <figcaption class="title">GILLOT</figcaption>                       </figure>
+            <figure class="three"><img src="imgs/melting.jpg" alt="">        <figcaption class="title">THE DISPERTION OF MELTING ICE</figcaption></figure>
+            <figure class="four"> <img src="imgs/archipel.jpg" alt="">       <figcaption class="title">L'ARCHIPEL</figcaption>                   </figure>
+            <figure class="five"> <img src="imgs/maison.jpg" alt="">         <figcaption class="title">DIA'PHANE</figcaption>                    </figure>
+        </div>
+    </main>
+
+    <footer>© Copyright  <span id="year"></span> mathis-enguehard.com</footer>
+
+<!-- Mise à jour de l'année du footer -->
+<script>
+    document.querySelector('#year').innerHTML = new Date().getFullYear();
+</script>
+
+<!-- Menu -->
+<script>
+    console.log("Loading");
+    let menush = false;
+    let btn = document.querySelector("#navigationbutton");
+    let menu = document.querySelector("header nav");
+    btn.addEventListener("click", function(){
+        if (menush == false){
+            menu.style.display = "block";
+            menush = true;
+            btn.src = "imgs/icons/close.png";
+        }
+        else {
+            menu.style.display = "none";
+            btn.src = "imgs/icons/menu.png";
+            menush = false;
+        }
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+footer {
+  background-color: rgba(136, 136, 136, 0.25);
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+
+
+
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 80vh;
+}
+
+header .logo {
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    width: 7.5vh;
+    height: auto;
+}
+
+header nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 15vh;
+}
+
+header nav ul li a:hover{
+    color: rgb(178, 170, 190);
+}
+
+header nav ul li {
+    margin-top: 5vh;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+header ul#resaux img {
+    all: unset;
+    width: 5vh;
+}
+
+header ul#resaux {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+header #navigationbutton{
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    height: 7.5vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 5;
+}
+
+header #scroll {
+    position: absolute;
+    left: calc(50vw - 5vh);
+    top: 90vh;
+    width: 10vh;
+}
+
+header .title {
+    margin-top: 35vh;
+}
+
+header h1, header h3 {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5vh;
+}
+
+header h3 {
+    font-size: 2vh;
+    margin: 3vh;
+}
+
+

@@ -1,0 +1,25 @@
+
+ul.dess{
+  list-style: none;
+  margin-bottom: 3%;
+  padding: 0;
+  width: 100%;
+}
+
+li.dess {
+  margin-left: 15%;
+  width: 70%
+}
+
+h3 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.5vw;
+  color:#674636;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* margin-left: 5%; */
+}

@@ -1,0 +1,13 @@
+main {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+main img {
+  margin-bottom: 5vh;
+}
+
+img {
+  max-width: 80%;
+  max-height: 80%;
+}

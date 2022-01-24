@@ -1,0 +1,17 @@
+img.moi {
+  width: 20%;
+  /* float: left; */
+  margin: 2%;
+}
+
+h3 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.5vw;
+  color:#674636;
+}
+
+p {
+  font-size: 1vw;
+  margin: 1.5%;
+}
