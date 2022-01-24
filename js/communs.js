@@ -12,8 +12,8 @@ function header() {
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="#">Dessins</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="dessins.html">Dessins</a></li>
+                <li><a href="about.html">A propos</a></li>
             </ul>
             <ul id="resaux">
                 <li id="insta"><a href="https://instagram.com/mathis_enguehard_design"><img src="imgs/icons/insta.png" alt=""></a></li>
