@@ -1,0 +1,27 @@
+ header {
+    height: 15vh;
+ }
+
+ h2 {
+    font-family: Titres;
+ }
+
+main {
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ main img {
+    width: 100%;
+    height: auto;
+ }
+
+ main ul li {
+    margin-bottom: 75px;
+ }
