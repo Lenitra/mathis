@@ -1,3 +1,14 @@
+
+@font-face {
+font-family: Titres;
+src: url(../fonts/Montserrat-Bold.otf)
+}
+
+@font-face {
+font-family: Textes;
+src: url(../fonts/Montserrat-Regular.otf)
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -19,13 +30,11 @@
 }
 
 footer {
-  background-color: rgba(136, 136, 136, 0.25);
   color: black;
   text-align: center;
   margin-top: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-
 }
 
 
@@ -74,6 +83,7 @@ header nav ul li a{
     font-size: 5vh;
     color: whitesmoke;
     text-transform: uppercase;
+    font-family: Titres;
 }
 
 header ul#resaux img {
@@ -96,29 +106,3 @@ header #navigationbutton{
     border: none;
     z-index: 5;
 }
-
-header #scroll {
-    position: absolute;
-    left: calc(50vw - 5vh);
-    top: 90vh;
-    width: 10vh;
-}
-
-header .title {
-    margin-top: 35vh;
-}
-
-header h1, header h3 {
-    text-align: center;
-}
-
-header h1 {
-    font-size: 5vh;
-}
-
-header h3 {
-    font-size: 2vh;
-    margin: 3vh;
-}
-
-

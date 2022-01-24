@@ -47,6 +47,7 @@
         margin-top: -5vw;
         text-align: center;
         display: none;
+        font-family: "Titres";
     }
     .container2 .five img, .container1 .five img, .container2 .five, .container1 .five {
         width:50vw;
@@ -108,6 +109,33 @@
 
 }
 
+
+
+header #scroll {
+    position: absolute;
+    left: calc(50vw - 5vh);
+    top: 90vh;
+    width: 10vh;
+}
+
+header .title {
+    margin-top: 35vh;
+}
+
+header h1, header h3 {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5vh;
+    font-family: Titres;
+}
+
+header h3 {
+    font-size: 2vh;
+    margin: 3vh;
+    font-family: Textes;
+}
 
 
 
