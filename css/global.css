@@ -106,3 +106,7 @@ header #navigationbutton{
     border: none;
     z-index: 5;
 }
+
+a {
+    text-decoration: none;
+}
