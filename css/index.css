@@ -114,7 +114,7 @@
 header #scroll {
     position: absolute;
     left: calc(50vw - 5vh);
-    top: 90vh;
+    top: 80vh;
     width: 10vh;
 }
 

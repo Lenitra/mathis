@@ -16,18 +16,18 @@ main {
     height: 15vh;
  }
 
- h1 {
+ main h1 {
      font-family: Titres;
      margin-top: 15px;
  }
 
- h3, p {
+ main h3, main p {
     font-family: Textes;
     margin-top: 10px;
     margin-bottom: 10px;
  }
 
- span {
+ main span {
     background-color: #bebebe;
     border-radius: 25%;
     padding: 3px;
