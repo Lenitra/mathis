@@ -1,0 +1,37 @@
+main {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: 1fr; 
+  gap: 0% 3%; 
+  grid-template-areas: 
+    ". . ."; 
+  align-items: center; 
+}
+
+
+header {
+    height: 15vh;
+}
+
+main h1, main h2 {
+    font-family: Titres;
+}
+
+main p, main h4{
+    font-family: Textes;
+}
+
+img.gueule {
+    width: 30vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding-top: 50px;
+    margin-top: 50px;
+}
