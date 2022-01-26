@@ -1,0 +1,49 @@
+ header {
+    height: 15vh;
+ }
+
+ h2 {
+    font-family: Titres;
+ }
+
+p {
+   font-family: Textes;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+main div {
+   text-align: center;
+   height: auto;
+}
+
+main figcaption {
+   text-align: center;
+   font-size: 1.5vw;
+   font-family: Titres;
+   text-decoration: none;
+}
+
+main figure a {
+   text-decoration: none;
+   color: black;
+}
+
+
+ main img {
+    height: auto;
+    
+   width : 30vw;
+ }
+
+ main ul li {
+    margin-bottom: 75px;
+ }

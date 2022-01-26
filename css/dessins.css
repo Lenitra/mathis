@@ -6,11 +6,16 @@
     font-family: Titres;
  }
 
+p {
+   font-family: Textes;
+}
+
 main {
     width: 80vw;
     margin-left: 10vw;
     text-align: center;
 }
+
 ul {
     list-style-type: none;
     margin: 0;

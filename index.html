@@ -44,31 +44,10 @@
 
     <footer>© Copyright  <span id="year"></span> mathis-enguehard.com</footer>
 
-<!-- Mise à jour automatique de l'année du footer -->
+<!-- Menu et date de footer -->
 <script>
-    document.querySelector('#year').innerHTML = new Date().getFullYear();
+    loading();
 </script>
-
-<!-- Clic sur le menu -->
-<script>
-    console.log("Loading");
-    let menush = false;
-    let btn = document.querySelector("#navigationbutton");
-    let menu = document.querySelector("header nav");
-    btn.addEventListener("click", function(){
-        if (menush == false){
-            menu.style.display = "block";
-            menush = true;
-            btn.src = "imgs/icons/close.png";
-        }
-        else {
-            menu.style.display = "none";
-            btn.src = "imgs/icons/menu.png";
-            menush = false;
-        }
-    })
-</script>
-
 
 </body>
 </html>

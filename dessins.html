@@ -21,35 +21,15 @@
         <ul>
             <li><img src="https://image.noelshack.com/fichiers/2021/33/1/1629129424-dessin2564.jpg" alt=""><h2>Représentation maison simple</h2></li>
             <li><img src="https://image.noelshack.com/fichiers/2021/33/1/1629129399-testedessin.jpg" alt=""><h2>Représentation en collage</h2></li>
-            <li><img src="https://image.noelshack.com/fichiers/2021/24/7/1624200024-silhouette.jpg" alt=""><h2>Modèle vivant</h2></li>
+            <li><img src="https://image.noelshack.com/fichiers/2021/24/7/1624200024-silhouette.jpg" alt=""><h2>Modèle vivant</h2><p>Dessin à partir d'un modèle vivant</p></li>
         </ul>        
     </main>
 
     <footer>© Copyright <span id="year"></span> mathis-enguehard.com</footer>
 
-<!-- Mise à jour de l'année du footer -->
+<!-- Menu et date de footer -->
 <script>
-    document.querySelector('#year').innerHTML = new Date().getFullYear();
-</script>
-
-<!-- Menu -->
-<script>
-    console.log("Loading");
-    let menush = false;
-    let btn = document.querySelector("#navigationbutton");
-    let menu = document.querySelector("header nav");
-    btn.addEventListener("click", function(){
-        if (menush == false){
-            menu.style.display = "block";
-            menush = true;
-            btn.src = "imgs/icons/close.png";
-        }
-        else {
-            menu.style.display = "none";
-            btn.src = "imgs/icons/menu.png";
-            menush = false;
-        }
-    })
+    loading();
 </script>
 
 
