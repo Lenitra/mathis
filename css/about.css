@@ -52,13 +52,10 @@ main {
         display: block; 
     }
 
-.col1 { grid-area: col1; }
 
-.col2 { grid-area: col2; }
-
-main .col1 {
-    margin-left: 10px;
-}
+    main .col1, main .col2 {
+        margin-left: 10px;  
+    }
 
 
 }
