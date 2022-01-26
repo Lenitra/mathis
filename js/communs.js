@@ -14,7 +14,7 @@ function header() {
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="dessins.html">Dessins</a></li>
-                <li><a href="portefolio.pdf" target="_blanc" download>Portefolio</a></li>
+                <li><a href="portefolio.pdf" target="_blanc" download>Portfolio</a></li>
                 <li><a href="about.html">A propos</a></li>
             </ul>
             <div id="resaux">
