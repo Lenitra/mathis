@@ -88,13 +88,14 @@ header nav ul li a{
     font-family: Titres;
 }
 
-header ul#resaux img {
+header #resaux img {
     all: unset;
     width: 5vh;
+    margin: 10px;
 }
 
-header ul#resaux {
-    margin-top: 15vh;
+header #resaux {
+    margin-top: 10vh;
     text-align: center;
 }
 
@@ -103,7 +104,7 @@ header #navigationbutton{
     position: absolute;
     right: 1vw;
     top: 1vh;
-    height: 7.5vh;
+    height: 6vh;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     z-index: 11;
